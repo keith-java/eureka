@@ -1,6 +1,6 @@
 Eureka
 =====
-[![Build Status](https://travis-ci.org/Netflix/eureka.svg?branch=master)](https://travis-ci.org/Netflix/eureka)
+[![Build Status](https://travis-ci.com/Netflix/eureka.svg?branch=master)](https://travis-ci.com/Netflix/eureka)
 
 Eureka is a REST (Representational State Transfer) based service that is primarily used in the AWS cloud for locating services for the purpose of load balancing and failover of middle-tier servers.
 
@@ -20,7 +20,8 @@ At Netflix, Eureka is used for the following purposes apart from playing a criti
 
 Building
 ----------
-The build requires java8 because of some required libraries that are java8 (servo), but the source and target compatibility are still set to 1.7.
+The build requires `java8` because of some required libraries that are `java8` (`servo`), but the source and target compatibility are still set to `1.7`.
+Note that tags should be checked out to perform a build.
 
 
 Support
